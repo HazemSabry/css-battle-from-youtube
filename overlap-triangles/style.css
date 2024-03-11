@@ -9,4 +9,30 @@
 }
 
 body {
+  background-color: #007065;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.first-tri {
+  border-bottom: 100px solid #00a79d;
+  transform: translate(-50%, 0%);
+}
+
+.second-tri {
+  border-bottom: 100px solid #f5c181;
+  transform: translate(-50%, -50%);
+}
+
+.third-tri {
+  border-bottom: 100px solid #ffeecf;
+  transform: translate(-50%, -100%);
 }
